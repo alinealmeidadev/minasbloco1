@@ -1,11 +1,6 @@
-/*família de fontes: 'Bebas Neue', cursiva;
-família de fontes: 'Josefin Sans', sem serifa;
-família de fontes: 'Kdam Thmor Pro', sem serifa;
+/*família de fontes: 'Josefin Sans', sem serifa;
 font-family: 'Oswald', sans-serif;
-font-family: 'Teko', sans-serif;
 família de fontes: 'Roboto Flex', sem serifa;*/
-
-
 
 * {
     margin: 0;
@@ -26,16 +21,15 @@ header{
     
 }
 header img{
-    width: 500px;
+    width: 450px;
     margin: 30px;
 }
 
 h1{
-   padding: 0;
    text-transform: uppercase;
-   font-size: 50px;
+   font-size: 45px;
    font-weight: 800;
-   line-height: 50px;
+   line-height: 45px;
    letter-spacing: 10px;
    font-family: 'Josefin' , 'sans-serif';
 }
@@ -44,7 +38,7 @@ span{
     padding: 30px;
     text-transform: uppercase;
     letter-spacing: 5px;
-    line-height: 50px;
+    line-height: 40px;
     font-weight: 500;
  }
 
@@ -54,8 +48,8 @@ span{
     justify-content: flex-start;
     padding-left: 25%;
     padding-right: 25%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 13px;
+    margin-bottom: 13px;
     font-family: 'Oswald', 'cursive';
     letter-spacing: 2px;
 }
@@ -63,7 +57,7 @@ span{
 h3{
     background: rgb(144,47,136);
     background: linear-gradient(90deg, rgba(144,47,136,0.969625350140056) 52%, rgba(10,194,145,1) 75%);
-    padding: 15px;
+    padding: 10px;
     padding-left: 100px;
     color: #ffffff;
     justify-content: center;
@@ -80,24 +74,25 @@ main{
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
-    padding-top: 50px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 aside{
     max-width: 50%;
     justify-content:center;
     text-align: center;
+    padding-top: 10px;
 }
 
 .aline img{
-    width: 200px;
+    width: 180px;
 }
 
 h4{
-   font-size: 22px;
-   font-weight: 600;
-   line-height: 60px;
+   font-size: 20px;
+   font-weight: 800;
+   line-height: 50px;
    letter-spacing: 5px;
    font-family: 'Josefin' , 'sans-serif'; 
    text-align: center;
@@ -106,7 +101,7 @@ h4{
 p{
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 25px;
     letter-spacing: 1px;
     word-spacing: normal;
     font-family: 'Josefin' , 'sans-serif';
@@ -120,7 +115,7 @@ article{
 ul{
     font-size: 16px;
     font-weight: 800;
-    line-height: 50px;
+    line-height: 45px;
     letter-spacing: 2px;
     font-family: 'Josefin' , 'sans-serif'; 
 }
@@ -129,7 +124,7 @@ li {
     list-style-type:square;
     font-size: 16px;
     font-weight: 400;
-    line-height: 23px;
+    line-height: 20px;
     letter-spacing: 1px;
     word-spacing: 2px;
     font-family: 'Roboto-flex' , 'sans-serif';
@@ -138,14 +133,13 @@ li {
 footer{
     display: flex;
     height: 60px;
-    background-color: #a7a5a5;
+    background-color: #a7a5a585;
     justify-content: start;
-
 }
 
 .footertext{
-    color: #ffffff;
-    padding-left: 20%;
+    color: #282829;
+    padding-left: 30%;
     align-items: flex-start;
 }
 
