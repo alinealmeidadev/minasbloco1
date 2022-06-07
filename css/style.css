@@ -1,3 +1,12 @@
+/*família de fontes: 'Bebas Neue', cursiva;
+família de fontes: 'Josefin Sans', sem serifa;
+família de fontes: 'Kdam Thmor Pro', sem serifa;
+font-family: 'Oswald', sans-serif;
+font-family: 'Teko', sans-serif;
+família de fontes: 'Roboto Flex', sem serifa;*/
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,105 +14,149 @@
 }
 body{
     display: block;
-    font-size: Josefin-Sans;
 }
 
 header{
-    padding: 30px;
     text-align: center;
-    background-color: #000000;
-    color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
+    border-bottom: 5px solid #2cb39f;
+    background: #FFFFFF url(/img/fundo2.png) center top no-repeat scroll;
+    background-size: 100%;
+    filter: blur(1);
+    
 }
 header img{
     width: 500px;
+    margin: 30px;
 }
 
 h1{
-   padding: 30px;
+   padding: 0;
    text-transform: uppercase;
    font-size: 50px;
    font-weight: 800;
    line-height: 50px;
    letter-spacing: 10px;
+   font-family: 'Josefin' , 'sans-serif';
 }
 
 span{
     padding: 30px;
     text-transform: uppercase;
     letter-spacing: 5px;
+    line-height: 50px;
+    font-weight: 500;
  }
 
  h2{
     color: #555555;
-    padding-left: 20%;
-    padding-right: 20%;
-    margin-top: 20px;
-    padding-bottom: 20px;
     text-align: center;
     justify-content: flex-start;
-    font-family: Josefin-Sans;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Oswald', 'cursive';
+    letter-spacing: 2px;
 }
 
 h3{
-    background-color: #902f88;
-    padding: 10px;
+    background: rgb(144,47,136);
+    background: linear-gradient(90deg, rgba(144,47,136,0.969625350140056) 52%, rgba(10,194,145,1) 75%);
+    padding: 15px;
+    padding-left: 100px;
     color: #ffffff;
     justify-content: center;
     align-items: initial;
+    font-family: 'Josefin', 'sans-serif';
+    font-weight: 100;
+    font-size: 22px;
 }
 
 main{
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 80px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
     padding-bottom: 80px;
-}
-
-.aline img{
-    width: 150px;
-    border-radius: 50%;
 }
 
 aside{
     max-width: 50%;
-    padding-left: 50px;
-    align-items: center;
+    justify-content:center;
+    text-align: center;
 }
 
+.aline img{
+    width: 200px;
+}
+
+h4{
+   font-size: 22px;
+   font-weight: 600;
+   line-height: 60px;
+   letter-spacing: 5px;
+   font-family: 'Josefin' , 'sans-serif'; 
+   text-align: center;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: normal;
+    font-family: 'Josefin' , 'sans-serif';
+    text-align: center;
+
+}
 article{
     max-width: 50%;
 }
 
 ul{
-
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 2px;
+    font-family: 'Josefin' , 'sans-serif'; 
 }
 
-li{
-
+li {
+    list-style-type:square;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Roboto-flex' , 'sans-serif';
 }
+
 footer{
     display: flex;
-    height: 80px;
+    height: 60px;
     background-color: #a7a5a5;
+    justify-content: start;
+
 }
+
 .footertext{
     color: #ffffff;
-    line-height: 30px;
-    padding-top: 10px;
-    max-width: 50%;
     padding-left: 20%;
+    align-items: flex-start;
 }
 
 .footerlinks{
-    max-width: 50%;
     padding-left: 20px;
-    margin-left: 20px;
+}
+
+footer a{
+    padding-left: 20px;
 }
 
 footer img{
-    width: 80px;
+    width: 60px;
 }
